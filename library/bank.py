@@ -14,11 +14,11 @@ class Bank:
     
     def open_account(self, customer):
         account = Account(self.next)
-        next += 1
+        self.next += 1
         customer.add_account(account)
         return account
     
     def show_customers(self):
         print(f"Customers at {self.name}\n")
         for customer in self.customers:
-            print(f"- {customer.self.name}")
+            print(f"- {customer.name}")
