@@ -19,14 +19,12 @@ tanvir_one.withdraw(100)
 tanvir_two.deposit(200)
 david_one.deposit(500)
 
-print()
+print("")
 
 ucl_bank.show_customers()
 
-print()
+print("")
 
 tanvir.show_accounts()
-
-print()
 
 david.show_accounts()

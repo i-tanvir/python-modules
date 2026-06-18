@@ -23,6 +23,6 @@ class Bank:
         return account
     
     def show_customers(self):
-        print(f"Customers at {self.name}\n")
+        print(f"Customers at {self.name}")
         for customer in self.customers:
             print(f"- {customer.name}")
