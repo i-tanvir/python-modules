@@ -1,5 +1,9 @@
-from .account import Account
-from .customer import Customer
+try:
+    from .account import Account
+    from .customer import Customer
+except ImportError:
+    from account import Account
+    from customer import Customer
 
 class Bank:
     def __init__(self, name):
